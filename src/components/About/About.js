@@ -1,7 +1,7 @@
 import React,{useState} from "react";
 import '../About/About.css'
 const About = () => {
-    const [skills, setSkills] = useState(false);
+    const [skills, setSkills] = useState(true);
     const [education, setEducation] = useState(false);
     const skillsHandler=()=>{
         if (education===true) {
@@ -12,7 +12,7 @@ const About = () => {
                     setSkills(true);
                 }
                 else{
-                    setSkills(false);
+                    setSkills(false); 
                 }
         }
         else{
@@ -67,27 +67,30 @@ const About = () => {
                              </div>
                             <div className={`extras__content ${skills? "active__content":" " }`}>
                                 <ul>
-                                    <li><span>Web Development</span><br/>Web App Development</li>
-                                    <li><span>Web Development</span><br/>Web App Development</li>
-                                    <li><span>Web Development</span><br/>Web App Development</li>
+                                    <li><span>Frontend Web Devlopment</span><br/>Intermediate</li>
+                                    <li><span>Fullstack Web Devlopment</span><br/>Beginner</li>
                                 </ul>
                             </div>
                             <div className={`extras__content ${education? "active__content":" " }`}>
                                 <ul>
                                     <li>
-                                        <span>2018-2022</span><br></br>BS Software Engineering 
-                                        <span style={{color:"white",fontWeight:"bold"}}> / </span>
+                                        <span>BS Software Engineering</span><br/>
                                         University Of Gujrat
+                                        <span style={{color:"white",fontWeight:"bold"}}>  / </span>
+                                         2018-2022
                                     </li>
                                     <li>
-                                        <span>2016-2018</span><br></br>Intermediate 
+                                        <span>Intermediate in Computer Science</span><br/>
+                                        Intermediate
+                                        Army Public College Sarai Alamgir 
                                         <span style={{color:"white",fontWeight:"bold"}}> / </span>
-                                         Army Public College Sarai Alamgir
+                                         2016-2018
                                     </li>
                                     <li>
-                                        <span>2014-2016</span><br></br>Matriculation 
-                                        <span style={{color:"white",fontWeight:"bold"}}> / </span>
+                                        <span>Matriculation </span><br/>
                                         Army Public School College Sarai Alamgir
+                                        <span style={{color:"white",fontWeight:"bold"}}> / </span>
+                                        2014-2016
                                     </li>
                                 </ul>
                             </div>

@@ -26,6 +26,9 @@
     border-radius: 12px;
     transition: background 0.5s , transform 0.5s;
 }
+.services__list div p{
+    font-size: 15px;
+}
 .services__list div i{
     font-size: 50px;
     margin-bottom: 30px;
@@ -35,14 +38,14 @@
    font-weight: 500;
    margin-bottom: 15px;
 }
-.services__list div a{
-   text-decoration: none;
-   color: #fff;
-   font-size: 12px;
-   margin-top: 20px;
-   display: inline-block;
-}
 .services__list div:hover{
     background: var(--primaryColor);
     transform: translateY(-10px);
+}
+.services__list div:hover p{
+    color: #262626;
+    font-weight: bold;
+}
+.services__list div:hover h2{
+    color: #262626;
 }

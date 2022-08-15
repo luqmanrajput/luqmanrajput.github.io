@@ -57,8 +57,7 @@ const About = () => {
                         <div className="about__details">
                             <h1 className="aboutme__title">About Me</h1>
                             <p>
-                                I consider handling things,  with responsibility & proper planning, to be of a greater priority. I like to present my devotion,
-                                dedication and commitment to achieve the goals despite of the hurdles thfromcome along the way.
+                            I consider handling things, with responsibility & proper planning, to be of a greater priority. I like to present my devotion, dedication, and commitment to achieving the goals despite the hurdles that come along the way.
                             </p>
                             {/* About Additionals */}
                              <div className="about__extras">

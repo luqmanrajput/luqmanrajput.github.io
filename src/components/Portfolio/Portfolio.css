@@ -74,19 +74,3 @@
 .project:hover .layer{
     height: 100%;
 }
-.btn{
-    display: block;
-    margin: 50px auto;
-    width: fit-content;
-    border: 1px solid var(--primaryColor);
-    padding: 10px 25px;
-    border-radius: 6px;
-    text-decoration: none;
-    color: var(--primaryColor);
-}
-.btn:hover{
-    background: var(--primaryColor);
-    border: 1px solid whitesmoke;
-    transition: 0.5s;
-    color: whitesmoke;
-}

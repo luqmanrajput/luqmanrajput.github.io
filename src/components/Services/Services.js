@@ -4,7 +4,7 @@ const Services = () => {
   return (
     <div id='services'>
       <div className="container">
-        <h1 className='services__title'>Where my priorities lie</h1>
+        <h1 className='services__title'>Where My <em>Priorities</em> Lie</h1>
         <div className="services__list">
             <div>
                 <i className="fa-solid fa-wand-magic-sparkles"></i>

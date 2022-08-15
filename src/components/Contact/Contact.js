@@ -41,7 +41,7 @@ const Contact = () => {
                             </div>
                         </div>
                         <div className="social__icons">
-                            <p><em>Download my resume:</em></p>
+                            <p><em>Download My Resume:</em></p>
                             <div className="social__icons">
                                 <a href='images/resume.pdf'  download>
                                 <i class="fa-solid fa-download"></i>

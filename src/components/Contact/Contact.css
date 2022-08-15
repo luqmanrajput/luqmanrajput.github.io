@@ -92,7 +92,9 @@
  }
  
  .contact__socials .title {
-   color: var(--primaryColor);
+    font-size: 50px;
+    margin-bottom: 30px;
+    color: var(--primaryColor);
  }
  
  .text {
@@ -122,11 +124,12 @@
  }
  
  .social__icons {
-   display: flex;
-   margin-top: 0.5rem;
- }
+    margin-top: 0.5rem;
+    
+  }
  
  .social__icons a {
+   display: inline-block; 
    width: 35px;
    height: 35px;
    border-radius: 5px;

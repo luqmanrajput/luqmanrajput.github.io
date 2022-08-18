@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/luqman-rajput/static/css/main.4a8c9e6f.css",
-    "main.js": "/luqman-rajput/static/js/main.dab6faf9.js",
-    "static/media/mob__bg.jpg": "/luqman-rajput/static/media/mob__bg.ff26c6f202ee4aea4dc3.jpg",
-    "static/media/header__bg.jpg": "/luqman-rajput/static/media/header__bg.b01fe58a627e40c3b75b.jpg",
-    "index.html": "/luqman-rajput/index.html",
-    "main.4a8c9e6f.css.map": "/luqman-rajput/static/css/main.4a8c9e6f.css.map",
-    "main.dab6faf9.js.map": "/luqman-rajput/static/js/main.dab6faf9.js.map"
+    "main.css": "/static/css/main.524d7057.css",
+    "main.js": "/static/js/main.dab6faf9.js",
+    "static/media/mob__bg.jpg": "/static/media/mob__bg.ff26c6f202ee4aea4dc3.jpg",
+    "static/media/header__bg.jpg": "/static/media/header__bg.b01fe58a627e40c3b75b.jpg",
+    "index.html": "/index.html",
+    "main.524d7057.css.map": "/static/css/main.524d7057.css.map",
+    "main.dab6faf9.js.map": "/static/js/main.dab6faf9.js.map"
   },
   "entrypoints": [
-    "static/css/main.4a8c9e6f.css",
+    "static/css/main.524d7057.css",
     "static/js/main.dab6faf9.js"
   ]
 }

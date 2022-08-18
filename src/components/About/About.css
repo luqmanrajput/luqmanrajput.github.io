@@ -4,55 +4,53 @@
 }
 
 /* About Section */
-#about{
+#about {
     padding: 80px 0;
     color: #ababab;
 }
-.about__section{
+
+.about__section {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
 /*  About Image */
-.about__img{
+.about__img {
     flex-basis: 35%;
 }
-.about__img img{
+
+.about__img img {
     width: 100%;
-    border-radius: 50px;
+    border-radius: 15px;
 }
+
 /* About Details */
-.about__details{
+.about__details {
     flex-basis: 60%;
 }
-.aboutme__title{
-font-size: 60px;
-font-weight: 600;
-color: #fff;
+
+.aboutme__title {
+    font-size: 50px;
+    font-weight: 600;
+    color: #fff;
 }
+
 /* About Additionals */
-.about__extras{
+.about__extras {
     display: flex;
     margin: 20px 0 40px;
 }
-.extras__headings{
+
+.extras__headings {
     margin-right: 50px;
     font-size: 18px;
     font-weight: 500;
     cursor: pointer;
     position: relative;
 }
-.extras__headings::after{
-    content: '';
-    width: 0;
-    height: 3px;
-    background: #ff004f;
-    position: absolute;
-    left: 0;
-    bottom: -8px;
-    transition: 0.5s;
-}
-.extras__headings::after{
+
+.extras__headings::after {
     content: '';
     width: 0;
     height: 3px;
@@ -62,20 +60,52 @@ color: #fff;
     bottom: -8px;
     transition: 0.5s;
 }
-.extras__headings.active__extras::after{
+
+.extras__headings.active__extras::after {
     width: 100%;
 }
-.extras__content ul li{
+
+.extras__content ul li {
     list-style: none;
     margin: 10px 0;
 }
-.extras__content ul li span{
+
+.extras__content ul li span {
     color: var(--primaryColor);
     font-size: 14px;
 }
-.extras__content{
+
+.extras__content {
     display: none;
 }
-.active__content{
+
+.active__content {
     display: block;
+}
+
+/* Making responsive for small screens */
+@media only screen and (max-width:600px){
+    .aboutme__title {
+        font-size: 30px;
+    }
+
+    .about__img , .about__details {
+        flex-basis: 100%;
+    }
+
+    .about__img{
+        margin-bottom: 30px;
+    }
+
+    about__details{
+        font-size: 14px;
+    }
+    
+    .extras__headings {
+        margin-right: 20px;
+        font-size: 16px;
+        font-weight: 500;
+        cursor: pointer;
+        position: relative;
+    }
 }

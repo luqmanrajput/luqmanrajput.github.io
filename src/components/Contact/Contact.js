@@ -10,8 +10,8 @@ const Contact = () => {
                         <div className="contact__info">
                             {/* left */}
                             <h1 className='contact__title'>Contact Me</h1>
-                            <p><i class="fa-solid fa-location-dot icon"></i> Punjab, Pakistan</p>
-                            <p><i className="fa-solid fa-envelope icon"></i>  luqmanrajput20@gmail.com</p>
+                            <p><i className="fa-solid fa-location-dot icon"></i> Punjab, Pakistan</p>
+                            <p><i className="fa-solid fa-envelope icon"></i>  luqmanrajput012@gmail.com</p>
                             <p> <i className="fa-solid fa-phone-square-alt icon"></i> +92 341 8889116</p>
                             <div className="social__icons">
                             <h4 className="my__resume"><em>My Socials:</em></h4>
@@ -30,15 +30,16 @@ const Contact = () => {
                             </div>
                             <h4 className="my__resume"><em>My Resume:</em></h4>
                             <a href='images/resume.pdf'  download className='download__btn'>
-                                <i class="fa-solid fa-download"></i> Download
+                                <i className="fa-solid fa-download"></i> Download
                                 </a>
                         </div>
                         <div className="contact__form">
                             {/* right */}
-                            <form action="https://formsubmit.co/rajaluqmansarwar20@gmail.com" method="POST" autocomplete="off">
+                            <form action="https://formsubmit.co/1d5362289dba7e7336b2df02408e40b1" method="POST" autoComplete="off">
+                            <h2 className='contact__formTitle'>Have any query? Reach me out!</h2>
                                 <input type="text" name="name" className="input" required placeholder='Your Name' />
                                 <input type="email" name="email" className="input" required placeholder='Your Email' />
-                                <textarea name="message" className="input" required placeholder='Your Message'></textarea>
+                                <textarea type="text" name="message" className="input" required placeholder='Your Message'></textarea>
                                 <button type="submit" className='form__btn'>Submit</button>
                         </form>
                         </div>

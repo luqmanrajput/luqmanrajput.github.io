@@ -8,7 +8,7 @@
     padding: 30px 0;
 }
 .services__title{
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 600;
     color: #fff;
 }
@@ -49,3 +49,11 @@
 .services__list div:hover h2{
     color: #262626;
 }
+/* Making responsive for small screens */
+@media only screen and (max-width:600px){
+    .services__title{
+        font-size: 30px;
+        font-weight: 600;
+        color: #fff;
+    }
+  }

@@ -21,7 +21,7 @@
 .contact__title {
   color: #fff;
   font-weight: 600;
-  font-size: 40px;
+  font-size: 50px;
   line-height: 1;
   margin-bottom: 0.7rem;
 }
@@ -49,7 +49,7 @@
 .social__icons a {
   text-decoration: none;
   padding: 3px 10px;
-  font-size: 30px;
+  font-size: 20px;
   margin-top: 10px;
   margin-right: 15px;
   color: #080808;
@@ -64,6 +64,7 @@
   background: #080808;
   border: var(--primaryColor) 3px solid;
   transform: translateY(2.5px);
+  transition: 0.4s;
 }
 
 .my__resume{
@@ -107,6 +108,10 @@ form input, form textarea{
   border-radius: 10px;
 }
 
+.contact__formTitle{
+  color: #080808;
+}
+
 .form__btn {
   display: inline-block;
   color: var(--primaryColor);
@@ -128,3 +133,34 @@ form input, form textarea{
   cursor: pointer;
   transition: 0.3s;
 }
+/* Making responsive for small screens */
+  @media only screen and (max-width:600px){
+    .contact__section{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .contact__title {
+      color: #fff;
+      font-weight: 600;
+      font-size: 30px;
+      line-height: 1;
+      margin-bottom: 0.7rem;
+    }
+
+    .contact__info{
+      flex-basis: 100%;
+      border: #fff 2px solid;
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+      border-bottom-left-radius: 0;
+      border-bottom: none;
+    }
+
+    .contact__form {
+      flex-basis: 100%;
+      border-top-right-radius: 0;
+      border-bottom-left-radius: 15px;
+      border-bottom-right-radius: 15px;
+    }
+  }

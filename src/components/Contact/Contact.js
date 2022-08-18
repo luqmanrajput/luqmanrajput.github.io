@@ -4,28 +4,17 @@ import '../Contact/Contact.css';
 const Contact = () => {
     return (
         <>
-            <div id="contact">   
-                <div className="container container-form">
-                <div className=" contact__section">
-                    <div className="contact__socials">
-                        <div className="info">
-                             <h1 className='title'>Contact Me</h1>
-                            <div className="information">
-                                <i class="fa-solid fa-location-dot icon"></i>
-                                <p>Punjab, Pakistan</p>
-                            </div>
-                            <div className="information">
-                                <i className="fa-solid fa-envelope icon"></i> 
-                                <p>rajaluqmansarwar20@gmail.com</p>
-                            </div>
-                            <div className="information">
-                            <i className="fa-solid fa-phone-square-alt icon"></i>
-                                <p>+92 341 8889116</p>
-                            </div>
-                        </div>
-                        <div className="social__icons">
-                            <p><em> My Socials:</em></p>
+            <div id="contact">
+                <div className="container">
+                    <div className="contact__section">
+                        <div className="contact__info">
+                            {/* left */}
+                            <h1 className='contact__title'>Contact Me</h1>
+                            <p><i class="fa-solid fa-location-dot icon"></i> Punjab, Pakistan</p>
+                            <p><i className="fa-solid fa-envelope icon"></i>  luqmanrajput20@gmail.com</p>
+                            <p> <i className="fa-solid fa-phone-square-alt icon"></i> +92 341 8889116</p>
                             <div className="social__icons">
+                            <h4 className="my__resume"><em>My Socials:</em></h4>
                                 <a href="https://www.facebook.com/luqmanrajput20">
                                     <i className="fab fa-facebook-f"></i>
                                 </a>
@@ -39,39 +28,23 @@ const Contact = () => {
                                     <i className="fab fa-github"></i>
                                 </a>
                             </div>
-                        </div>
-                        <div className="social__icons">
-                            <p><em>Download My Resume:</em></p>
-                            <div className="social__icons">
-                                <a href='images/resume.pdf'  download>
-                                <i class="fa-solid fa-download"></i>
+                            <h4 className="my__resume"><em>My Resume:</em></h4>
+                            <a href='images/resume.pdf'  download className='download__btn'>
+                                <i class="fa-solid fa-download"></i> Download
                                 </a>
-                            </div>
+                        </div>
+                        <div className="contact__form">
+                            {/* right */}
+                            <form action="https://formsubmit.co/rajaluqmansarwar20@gmail.com" method="POST" autocomplete="off">
+                                <input type="text" name="name" className="input" required placeholder='Your Name' />
+                                <input type="email" name="email" className="input" required placeholder='Your Email' />
+                                <textarea name="message" className="input" required placeholder='Your Message'></textarea>
+                                <button type="submit" className='form__btn'>Submit</button>
+                        </form>
                         </div>
                     </div>
-                    {/* FOrm */}
-                    <div className="contact-form">
-                        <form action="https://formsubmit.co/rajaluqmansarwar20@gmail.com" method="POST" autocomplete="off">
-                            <h2 className="title">Any queries? Reach me out!</h2>
-                            <div className="input-container">
-                                <label htmlFor="">Name</label>
-                                <input type="text" name="name" className="input" required placeholder='Your Name' />
-                            </div>
-                            <div className="input-container">
-                                <label htmlFor="">Email</label>
-                                <input type="email" name="email" className="input" required placeholder='Your Email' />
-                            </div>
-                            <div className="input-container textarea">
-                                <label htmlFor="">Message</label>
-                                <textarea name="message" className="input" required placeholder='Your Message'></textarea>
-                            </div>
-                            <input type="submit" value="send" className="contact__btn" />
-                        </form>
-                    </div>
-                </div>
                 </div>
             </div>
-
         </>
     )
 }

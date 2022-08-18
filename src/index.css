@@ -38,3 +38,18 @@ html {
   transition: 0.5s;
   color: whitesmoke;
 }
+
+.style__div{
+  position: relative;
+}
+
+.style__div::after{
+  content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 20%;
+    background-color: var(--primaryColor);
+}

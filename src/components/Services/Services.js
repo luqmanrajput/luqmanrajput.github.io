@@ -2,6 +2,10 @@ import React from 'react'
 import '../Services/Services.css'
 const Services = () => {
   return (
+    <>
+      <div className="style__div">
+            
+            </div>
     <div id='services'>
       <div className="container">
         <h1 className='services__title'>Where My <em>Priorities</em> Lie</h1>
@@ -30,6 +34,7 @@ const Services = () => {
         </div>
       </div>
     </div>
+    </>
   )
 }
 

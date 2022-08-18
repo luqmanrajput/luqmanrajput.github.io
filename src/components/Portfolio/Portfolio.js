@@ -3,6 +3,9 @@ import '../Portfolio/Portfolio.css'
 const Portfolio = () => {
   return (
     <>
+        <div className="style__div">
+            
+        </div>
         <div id="portfolio">
             <div className="container">
                 <h1 className="portfolio__title">Portfolio</h1>

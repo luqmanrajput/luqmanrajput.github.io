@@ -74,6 +74,7 @@
     font-weight: 500;
     font-size: 20px;
     margin: 0.5rem;
+    margin-bottom: 0px;
 }
 
 .skill__icon{
@@ -118,6 +119,7 @@
         font-weight: 500;
         font-size: 15px;
         margin: 0.5rem;
+        margin-bottom: 0;
     }
     
     .skill__icon{
